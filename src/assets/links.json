@@ -1,0 +1,18 @@
+[
+  {
+    "href": "/",
+    "label": "Home"
+  },
+  {
+    "href": "/courses",
+    "label": "Technologies"
+  },
+  {
+    "href": "/about",
+    "label": "About us"
+  },
+  {
+    "href": "/contact",
+    "label": "Contact us"
+  }
+]
