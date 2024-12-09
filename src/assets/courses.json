@@ -1,0 +1,66 @@
+[
+  {
+    "title": "Front end Development",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium saepe error ratione odio, doloremque adipisci.",
+    "icons": [
+      "/icons/html.svg",
+      "/icons/css.svg",
+      "/icons/javascript.svg",
+      "/icons/tailwind.svg",
+      "/icons/react.svg",
+      "/icons/vue.svg",
+      "/icons/git.svg",
+      "/icons/node.svg"
+    ]
+  },
+  {
+    "title": "Full stack Development",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium saepe error ratione odio, doloremque adipisci.",
+    "icons": [
+      "/icons/html.svg",
+      "/icons/css.svg",
+      "/icons/javascript.svg",
+      "/icons/tailwind.svg",
+      "/icons/react.svg",
+      "/icons/node.svg",
+      "/icons/express.svg",
+      "/icons/mongodb.svg"
+    ]
+  },
+  {
+    "title": "App Development",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium saepe error ratione odio, doloremque adipisci.",
+    "icons": [
+      "/icons/flutter.svg",
+      "/icons/dart.svg",
+      "/icons/android.png",
+      "/icons/firebase.svg",
+      "https://avatars.githubusercontent.com/u/55202745?s=200&v=4",
+      "/icons/playstore.svg",
+      "/icons/vscode.svg",
+      "/icons/windows.svg"
+    ]
+  },
+  {
+    "title": "Programming Languages",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium saepe error ratione odio, doloremque adipisci.",
+    "icons": [
+      "/icons/python.svg",
+      "/icons/java.svg",
+      "/icons/cplusplus.svg",
+      "/icons/opencv.svg"
+    ]
+  },
+  {
+    "title": "Robotics and IoT",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium saepe error ratione odio, doloremque adipisci.",
+    "icons": [
+      "/icons/python.svg",
+      "/icons/arduino.svg",
+      "/icons/raspberrypi.svg",
+      "/icons/arduino-uno.png",
+      "/icons/raspberry-pi.png",
+      "/icons/cplusplus.svg"
+    ]
+  }
+]
