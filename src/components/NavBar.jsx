@@ -14,7 +14,7 @@ function NavBar() {
           </p>
         </Link>
 
-        <NavLinks />
+        <NavLinks className="mr-auto" />
 
         <Link href="/#courses">
           <Button variant="outline" className="max-sm:hidden">

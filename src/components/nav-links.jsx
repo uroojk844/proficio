@@ -6,7 +6,7 @@ function NavLinks({className}) {
   const pathname = usePathname();
 
   return (
-    <div className={`max-sm:hidden flex gap-8 mr-auto ${className}`}>
+    <div className={`max-sm:hidden flex gap-8 ${className}`}>
       {links.map((link) => (
         <Link
           href={link.href}

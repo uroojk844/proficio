@@ -26,9 +26,11 @@ export default function LampDemo() {
           duration: 0.8,
           ease: "easeInOut",
         }}
-        className=" bg-gradient-to-br from-slate-300 to-slate-500 bg-clip-text text-center text-5xl font-bold tracking-tight text-transparent"
+        className="bg-gradient-to-br from-slate-300 to-slate-500 bg-clip-text text-center text-5xl font-bold tracking-tight text-transparent"
       >
-        <TypewriterEffectSmooth words={words} />
+        <TypewriterEffectSmooth words={words} className="max-sm:hidden"/>
+        <p className="sm:hidden mb-8 leading-[1.25]">Level Up Your Coding <span className="text-blue-500">Skills!</span></p>
+
         <p className="text-xl mb-8">
           Master in-demand Programming Languages & Technologies.
         </p>
@@ -50,11 +52,11 @@ export const LampContainer = ({ children, className }) => {
   return (
     <div
       className={cn(
-        "relative flex min-h-[calc(100dvh-76px)] flex-col items-center justify-center overflow-hidden bg-slate-950 w-full rounded-md z-0",
+        "relative flex min-h-[calc(100vh-76px)] flex-col items-center justify-center overflow-hidden bg-slate-950 w-full rounded-md z-0",
         className
       )}
     >
-      <div className="relative flex w-full flex-1 scale-y-100 items-center justify-center isolate z-0 ">
+      <div className="max-sm:hidden relative flex w-full flex-1 max-xl:top-20 scale-y-100 items-center justify-center isolate z-0 ">
         <motion.div
           initial={{ opacity: 0.5, width: "15rem" }}
           whileInView={{ opacity: 1, width: "30rem" }}
@@ -102,6 +104,7 @@ export const LampContainer = ({ children, className }) => {
         ></motion.div>
         <motion.div
           initial={{ width: "15rem" }}
+          // light
           whileInView={{ width: "30rem" }}
           transition={{
             delay: 0.3,
@@ -113,7 +116,7 @@ export const LampContainer = ({ children, className }) => {
 
         <div className="absolute inset-auto z-40 h-44 w-full -translate-y-[12.5rem] bg-slate-950 "></div>
       </div>
-      <div className="relative z-50 flex -translate-y-56 flex-col items-center px-5">
+      <div className="relative z-50 flex sm:-translate-y-36 xl:-translate-y-56 flex-col items-center px-5">
         {children}
       </div>
     </div>

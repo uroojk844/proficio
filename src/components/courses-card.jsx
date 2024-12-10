@@ -1,7 +1,7 @@
 function CourseCard({ course, reverse = false }) {
   return (
-    <div className={`flex w-full items-center justify-between py-16 ${reverse && 'flex-row-reverse'}`}>
-      <div className="p-6 rounded max-w-sm">
+    <div className={`flex flex-wrap gap-8 w-full items-center justify-between py-16 ${reverse && 'flex-row-reverse'}`}>
+      <div className="py-6 rounded max-w-sm">
         <div className="text-5xl font-bold mb-4">{course.title}</div>
         <div className="text-gray-300">{course.description}
         </div>
