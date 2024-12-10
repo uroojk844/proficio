@@ -63,7 +63,7 @@ export default function RootLayout({ children }) {
         <link rel="shortcut icon" href="/logo.svg" type="image/x-icon" />
       </head>
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased `}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased grid min-h-dvh grid-rows-[max-content_1fr_max-content]`}
       >
         <NavBar />
         {children}
