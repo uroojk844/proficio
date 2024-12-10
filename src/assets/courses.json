@@ -1,7 +1,7 @@
 [
   {
     "title": "Front end Development",
-    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium saepe error ratione odio, doloremque adipisci.",
+    "description": "Create visually stunning, responsive, and user-friendly interfaces using modern technologies like React, Angular, and Vue.js to enhance user experiences across web and mobile platforms.",
     "icons": [
       "/icons/html.svg",
       "/icons/css.svg",
@@ -15,7 +15,7 @@
   },
   {
     "title": "Full stack Development",
-    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium saepe error ratione odio, doloremque adipisci.",
+    "description": "Build complete, scalable applications with seamless integration between powerful back-end systems and intuitive front-end designs, tailored to meet your business requirements.",
     "icons": [
       "/icons/html.svg",
       "/icons/css.svg",
@@ -29,7 +29,7 @@
   },
   {
     "title": "App Development",
-    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium saepe error ratione odio, doloremque adipisci.",
+    "description": "Develop high-performance, cross-platform mobile apps with Flutter, delivering native-like experiences on both iOS and Android for unmatched efficiency and scalability.",
     "icons": [
       "/icons/flutter.svg",
       "/icons/dart.svg",
@@ -43,7 +43,7 @@
   },
   {
     "title": "Programming Languages",
-    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium saepe error ratione odio, doloremque adipisci.",
+    "description": "Master robust and scalable software development with expertise in Python, Java, C++, JavaScript, and more, tailored for a wide range of applications and industries.",
     "icons": [
       "/icons/python.svg",
       "/icons/java.svg",
@@ -53,7 +53,7 @@
   },
   {
     "title": "Robotics and IoT",
-    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium saepe error ratione odio, doloremque adipisci.",
+    "description": "Design innovative, connected systems with smart automation and real-time data processing to create intelligent robotics solutions and IoT-enabled devices for modern applications.",
     "icons": [
       "/icons/python.svg",
       "/icons/arduino.svg",
@@ -61,6 +61,17 @@
       "/icons/arduino-uno.png",
       "/icons/raspberry-pi.png",
       "/icons/cplusplus.svg"
+    ]
+  },
+  {
+    "title": "DevOps",
+    "description": "Optimize your development lifecycle with automation, CI/CD pipelines, cloud integration, and efficient infrastructure management, ensuring faster delivery and better system reliability.",
+    "icons": [
+      "/icons/git.svg",
+      "/icons/docker.svg",
+      "/icons/bitbucket.svg",
+      "/icons/kubernetes.svg",
+      "/icons/containers.svg"
     ]
   }
 ]
