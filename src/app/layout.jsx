@@ -24,6 +24,42 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <head>
         <title>Proficio Softwarea Solutions</title>
+        <meta name="title" content="Proficio Softwarea Solutions" />
+        <meta
+          name="description"
+          content="Proficio Softwarea Solutions is a software training institute where you can master in-demand skills for the job."
+        />
+
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://proficiosoftware.com" />
+        <meta property="og:title" content="Proficio Softwarea Solutions" />
+        <meta
+          property="og:description"
+          content="Proficio Softwarea Solutions is a software training institute where you can master in-demand skills for the job."
+        />
+        <meta
+          property="og:image"
+          content="/logo.svg"
+        />
+
+        <meta property="twitter:card" content="summary_large_image" />
+        <meta property="twitter:url" content="https://proficiosoftware.com/" />
+        <meta property="twitter:title" content="Proficio Softwarea Solutions" />
+        <meta
+          property="twitter:description"
+          content="Proficio Softwarea Solutions is a software training institute where you can master in-demand skills for the job."
+        />
+        <meta
+          property="twitter:image"
+          content="/logo.svg"
+        />
+
+        <meta
+          name="keywords"
+          content="html,css,javasript,js,c,c++,c plus plus,cplusplus,python,java,flutter,dart,web development,android development,front end,developmen,full stack,react,vue,iot,robotics,online,training,coaching,institute,coding,tailwind,tailwindcss,scss,redux,dsa,arduino,raspberry,pi,vuex,pinia,state management,node,mongo,db,php,mysql,bootstrap,express"
+        />
+        <meta name="author" content="Urooj Khan" />
+
         <link rel="shortcut icon" href="/logo.svg" type="image/x-icon" />
       </head>
       <body
